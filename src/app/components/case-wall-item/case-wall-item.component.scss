@@ -1,0 +1,24 @@
+.space-between {
+  height: 10px;
+}
+
+mat-card .header-image {
+  background-size: cover;
+  min-height: 5em;
+  min-width: 5em;
+}
+
+mat-card mat-card-actions {
+  float: right;
+}
+
+mat-card-header > {
+  display: flex;
+}
+
+mat-card-header .fill-space {
+  // This fills the remaining space, by using flexbox.
+  flex: 1 1 auto;
+}
+
+

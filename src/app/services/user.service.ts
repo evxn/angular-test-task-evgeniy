@@ -7,4 +7,7 @@ export class UserService {
     return '';
   }
 
+  getUsername(userId: string): string {
+    return '';
+  }
 }

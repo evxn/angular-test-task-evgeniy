@@ -1,0 +1,18 @@
+<mat-card>
+  <mat-card-header>
+    <div mat-card-avatar
+         class="header-image"
+         [style.backgroundImage]="'url('+ data.creatorAvatar +')'"
+    ></div>
+    <mat-card-title>{{data.creatorUsername}}</mat-card-title>
+    <mat-card-subtitle>{{data.modificationTimeUnixTimeInMs | date: 'M/d/yy, h:mm:ss.SSS a'}}</mat-card-subtitle>
+    <span class="fill-space"></span>
+    <mat-card-actions>
+      <app-favorite [(isFavorite)]="data.isFavorite"></app-favorite>
+    </mat-card-actions>
+  </mat-card-header>
+  <mat-card-content>
+    <ng-content></ng-content>
+  </mat-card-content>
+</mat-card>
+<div class="space-between"></div>

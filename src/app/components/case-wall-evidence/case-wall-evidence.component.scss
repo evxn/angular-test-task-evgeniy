@@ -1,0 +1,19 @@
+@import '~variables.scss';
+
+$thumbnail_size: 5em;
+
+.vertically-centered {
+  display: flex;
+  align-items: center;
+}
+
+.evidence-attachment-thumbnail {
+  margin-left: 1em;
+  max-height: $thumbnail_size;
+  max-width: $thumbnail_size;
+}
+
+.evidence-attachment-name {
+  margin-left: 1em;
+  color: $grey-color;
+}
