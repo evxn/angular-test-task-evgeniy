@@ -4,7 +4,7 @@
 
 ## WALL LIST VIEW
  
-I implemented it as a list of dynamically created components (each can be with different behavior but still share some presentation logic). Works with AOT compilation. Demo built with 
+I implemented it as a list of dynamically created components (each can be with different behavior but still share some presentation logic). Works with AOT compilation. Demo built with --environment=dev to use mocked services.
 
     ng build --prod --environment=dev --bh=/angular-test-task-evgeniy/
  
