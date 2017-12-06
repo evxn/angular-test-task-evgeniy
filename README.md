@@ -4,7 +4,7 @@
 
 ## WALL LIST VIEW
  
-Implemented the list of dynamically created components (each can be with different behavior but still share some presentation logic)
+Implemented as a list of dynamically created components (each can be with different behavior but still share some presentation logic)
  
 ### Design: 
 
