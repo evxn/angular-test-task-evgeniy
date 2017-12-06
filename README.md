@@ -1,6 +1,6 @@
 # Angular Test task 
 
-## Demo http://evgn.ml/angular-test-task-evgeniy/
+## Demo (responsive) http://evgn.ml/angular-test-task-evgeniy/
 
 ## WALL LIST VIEW
  
