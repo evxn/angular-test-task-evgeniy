@@ -4,6 +4,8 @@
 
 ## WALL LIST VIEW
  
+Implemented the list of dynamically created components (each can be with different behavior but still share some presentation logic)
+ 
 ### Design: 
 
 ![Provided mockups](/task/design.png?raw=true)
