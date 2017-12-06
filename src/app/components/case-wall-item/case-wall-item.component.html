@@ -5,7 +5,7 @@
          [style.backgroundImage]="'url('+ data.creatorAvatar +')'"
     ></div>
     <mat-card-title>{{data.creatorUsername}}</mat-card-title>
-    <mat-card-subtitle>{{data.modificationTimeUnixTimeInMs | date: 'M/d/yy, h:mm:ss.SSS a'}}</mat-card-subtitle>
+    <mat-card-subtitle>{{data.modificationTimeUnixTimeInMs | date: 'M/d/yy, h:mm:ss'}}</mat-card-subtitle>
     <span class="fill-space"></span>
     <mat-card-actions>
       <app-favorite [(isFavorite)]="data.isFavorite"></app-favorite>

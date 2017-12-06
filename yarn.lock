@@ -3594,6 +3594,10 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
+ng-dynamic-component@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/ng-dynamic-component/-/ng-dynamic-component-2.0.3.tgz#fa4bbbe8a7658ff5ba9fdc8174c2e8a20cad9228"
+
 ngx-order-pipe@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ngx-order-pipe/-/ngx-order-pipe-1.1.1.tgz#931ce42738e397f6bd04a76f5d32026e79c82d3a"

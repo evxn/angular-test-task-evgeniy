@@ -1,15 +1,12 @@
-<div class="w400">
-  <mat-toolbar color="primary">
-    <mat-toolbar-row>
-      <span>Case Wall</span>
-    </mat-toolbar-row>
-  </mat-toolbar>
-  <div *ngFor="let item of data | async | orderBy: 'modificationTimeUnixTimeInMs': true">
-    <app-case-wall-item [data]="item">
-      <app-case-wall-status-changed [data]="item" *ngIf="item.type === 0"></app-case-wall-status-changed>
-      <app-case-wall-evidence [data]="item" *ngIf="item.type === 1"></app-case-wall-evidence>
-      <app-case-wall-comment [data]="item" *ngIf="item.type === 2"></app-case-wall-comment>
-    </app-case-wall-item>
-
-  </div>
-</div>
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Case Wall</span>
+  </mat-toolbar-row>
+</mat-toolbar>
+<ng-container *ngFor="let item of data | orderBy: 'modificationTimeUnixTimeInMs': true">
+  <app-case-wall-item [data]="item">
+    <ndc-dynamic [ndcDynamicComponent]="wallActivityEnum2ComponentTypeMapping[item.type]"
+                 [ndcDynamicInputs]="{data: item}"
+    ></ndc-dynamic>
+  </app-case-wall-item>
+</ng-container>
