@@ -8,7 +8,7 @@ I implemented it as a list of dynamically created components (each can be with d
 
     ng build --prod --environment=dev --bh=/angular-test-task-evgeniy/
  
-### Provided Mockups: 
+### Provided Mockups
 
 ![Provided mockups](/task/design.png?raw=true)
 
