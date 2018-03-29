@@ -12,7 +12,7 @@ I implemented it as a list of dynamically created components (each can be with d
 
 ![Provided mockups](/task/design.png?raw=true)
 
-### Notes
+### Task Notes
 * Attached [C# Data-Model](/task/DataModel.cs) – please convert it to TypeScript.
 * Mock service file (angular) – provide mock data according to the Data Model.
 * Create user service that get User-Id from the model and return user image
